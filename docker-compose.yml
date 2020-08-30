@@ -1,0 +1,57 @@
+version: '3'
+
+volumes:
+  postgres-data:
+    driver: local
+
+services:
+  app:
+    container_name: app
+    build: docker/app/.
+    volumes:
+      - ./project:/var/www/app
+    ports:
+      - "80:8080"
+    depends_on:
+      - postgres
+      - redis
+
+  postgres:
+    container_name: postgres
+    image: postgres:10.3
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=hotel
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+
+  redis:
+    container_name: redis
+    image: redis:4.0
+    command: --appendonly no
+    ports:
+      - "6379:6379"
+
+  worker:
+    container_name: worker
+    build: docker/worker/.
+    volumes:
+      - ./project:/var/www/app
+
+  laravel-echo:
+    container_name: laravel-echo
+    build: docker/laravel-echo/.
+    ports:
+      - "6001:6001"
+    volumes:
+      - ./docker/laravel-echo/laravel-echo-server.json:/app/laravel-echo-server.json:ro
+
+  mailcatcher:
+    container_name: mailcatcher
+    image: schickling/mailcatcher
+    ports:
+      - "1080:1080"
+      - "1025:1025"

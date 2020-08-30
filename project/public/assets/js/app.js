@@ -25747,8 +25747,8 @@ $(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/matoso/Vídeos/pós/PHP/hotel-scheduling/resources/assets/js/app.js */"./resources/assets/js/app.js");
-module.exports = __webpack_require__(/*! /home/matoso/Vídeos/pós/PHP/hotel-scheduling/resources/assets/scss/app.scss */"./resources/assets/scss/app.scss");
+__webpack_require__(/*! /var/www/app/resources/assets/js/app.js */"./resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! /var/www/app/resources/assets/scss/app.scss */"./resources/assets/scss/app.scss");
 
 
 /***/ })
