@@ -20,21 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Contracts/Repositories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Exceptions/Repositories/RepositoryException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/BaseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/OrderBy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/OrderResolvedByUrlCriteria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/SearchResolvedByUrlCriteria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/UserRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/Where.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/WhereHas.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/WhereNotNull.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/WhereNull.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/With.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Criteria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Builders/PaginationBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Support/ChooseReturn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Support/MoneyHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/MoneyHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +200,7 @@
       <workItem from="1598627054517" duration="2683000" />
       <workItem from="1598730902909" duration="3806000" />
       <workItem from="1598753808955" duration="47000" />
-      <workItem from="1598753857830" duration="9159000" />
+      <workItem from="1598753857830" duration="9513000" />
     </task>
     <servers />
   </component>
@@ -230,11 +220,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="675" y="237" width="545" height="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598762697937">
+    <state x="675" y="237" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598763114816">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="2315" y="306" width="565" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598460078554" />
-    <state x="675" y="237" width="545" height="275" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1598762697937" />
+    <state x="675" y="237" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1598763114816" />
     <state x="2336" y="252" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598457917906">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>

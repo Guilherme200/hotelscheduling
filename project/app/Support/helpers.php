@@ -1,8 +1,9 @@
 <?php
 
+use App\Support\Flash;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
-use App\Helpers\MoneyHelper;
+use App\Support\MoneyHelper;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
 
@@ -147,5 +148,12 @@ if (!function_exists('remove_mask_money')) {
 	function remove_mask_money($value, $fromMoneyFormat = 'BRL')
 	{
 		return MoneyHelper::removeMaskMoney($value, $fromMoneyFormat);
+	}
+}
+
+if (!function_exists('flash')) {
+	function flash()
+	{
+		return new Flash();
 	}
 }
