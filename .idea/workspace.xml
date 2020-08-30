@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Builders/PaginationBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Support/ChooseReturn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Support/MoneyHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/MoneyHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Middleware/CheckUserType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +196,7 @@
       <workItem from="1598627054517" duration="2683000" />
       <workItem from="1598730902909" duration="3806000" />
       <workItem from="1598753808955" duration="47000" />
-      <workItem from="1598753857830" duration="9513000" />
+      <workItem from="1598753857830" duration="9828000" />
     </task>
     <servers />
   </component>
