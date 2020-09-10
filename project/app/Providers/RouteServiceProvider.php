@@ -2,79 +2,97 @@
 
 namespace App\Providers;
 
+use App\Enums\UserRolesEnum;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
-    /**
-     * This namespace is applied to your controller routes.
-     *
-     * In addition, it is set as the URL generator's root namespace.
-     *
-     * @var string
-     */
     protected $namespace = 'App\Http\Controllers';
 
-    /**
-     * The path to the "home" route for your application.
-     *
-     * @var string
-     */
-    public const HOME = '/home';
-
-    /**
-     * Define your route model bindings, pattern filters, etc.
-     *
-     * @return void
-     */
     public function boot()
     {
-        //
-
         parent::boot();
     }
 
-    /**
-     * Define the routes for the application.
-     *
-     * @return void
-     */
     public function map()
     {
-        $this->mapApiRoutes();
-
         $this->mapWebRoutes();
-
-        //
     }
 
-    /**
-     * Define the "web" routes for the application.
-     *
-     * These routes all receive session state, CSRF protection, etc.
-     *
-     * @return void
-     */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')
-            ->namespace($this->namespace)
-            ->group(base_path('routes/web.php'));
+        $this->mapAdminRoutes();
+        $this->mapClientRoutes();
+        $this->mapCommonRoutes();
     }
 
-    /**
-     * Define the "api" routes for the application.
-     *
-     * These routes are typically stateless.
-     *
-     * @return void
-     */
-    protected function mapApiRoutes()
+    protected function mapAdminRoutes()
     {
-        Route::prefix('api')
-            ->middleware('api')
-            ->namespace($this->namespace)
-            ->group(base_path('routes/api.php'));
+        $namespace = $this->namespace . '\Admin';
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::ADMIN])
+            ->prefix('admin')
+            ->name('admin.')
+            ->namespace($namespace)
+            ->group(base_path('routes/admin/authenticated.php'));
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::ADMIN])
+            ->prefix('ajax/admin')
+            ->name('ajax.admin.')
+            ->namespace($namespace)
+            ->group(base_path('routes/admin/ajax.php'));
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::ADMIN])
+            ->prefix('pagination/admin')
+            ->name('ajax.admin.')
+            ->namespace($namespace)
+            ->group(base_path('routes/admin/pagination.php'));
+    }
+
+    protected function mapClientRoutes()
+    {
+        $namespace = $this->namespace . '\Client';
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::CLIENT])
+            ->prefix('client')
+            ->name('client.')
+            ->namespace($namespace)
+            ->group(base_path('routes/client/authenticated.php'));
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::CLIENT])
+            ->prefix('ajax/client')
+            ->name('ajax.client.')
+            ->namespace($namespace)
+            ->group(base_path('routes/client/ajax.php'));
+
+        Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::CLIENT])
+            ->prefix('pagination/client')
+            ->name('pagination.client.')
+            ->namespace($namespace)
+            ->group(base_path('routes/client/pagination.php'));
+    }
+
+    protected function mapCommonRoutes()
+    {
+        $namespace = $this->namespace . '\Common';
+
+        Route::middleware('web')
+            ->namespace($namespace)
+            ->group(base_path('routes/common/unauthenticated.php'));
+
+        Route::middleware(['web', 'auth'])
+            ->namespace($namespace)
+            ->group(base_path('routes/common/authenticated.php'));
+
+        Route::middleware(['web', 'auth'])
+            ->prefix('ajax')
+            ->namespace($namespace)
+            ->group(base_path('routes/common/ajax.php'));
+
+        Route::middleware(['web', 'auth'])
+            ->prefix('pagination')
+            ->namespace($namespace)
+            ->group(base_path('routes/common/pagination.php'));
     }
 }
