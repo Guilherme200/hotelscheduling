@@ -6,8 +6,6 @@
       </a>
     </div>
     
-    auth()->user()->Roles(['sadsa'])
-    
     <div class="sidebar-brand sidebar-brand-sm">
       <a href="{{ route('home') }}">@lang('labels.common.menu')</a>
     </div>

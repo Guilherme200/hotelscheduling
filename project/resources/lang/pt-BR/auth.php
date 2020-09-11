@@ -16,5 +16,6 @@ return [
     'reset' => 'Sua senha foi redefinida!',
     'sent' => 'O link para redefinição de senha foi enviado para o seu e-mail!',
     'token' => 'O código para redefinição de senha é inválido.',
-    'user' => 'Não encontramos nenhum usuário com esse endereço de e-mail.',
+    'failed' => 'Essas credenciais não correspondem aos nossos registros.',
+    'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
 ];

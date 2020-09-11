@@ -5,5 +5,10 @@ window.Vue = require("vue");
 require("./components");
 
 const app = new Vue({
-    el: "#app"
+    el: "#app",
+    methods: {
+        get_errors() {
+            $
+        }
+    }
 });

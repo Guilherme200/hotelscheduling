@@ -24302,7 +24302,12 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 __webpack_require__(/*! ./components */ "./resources/assets/js/components.js");
 
 var app = new Vue({
-  el: "#app"
+  el: "#app",
+  methods: {
+    get_errors: function get_errors() {
+      $;
+    }
+  }
 });
 
 /***/ }),

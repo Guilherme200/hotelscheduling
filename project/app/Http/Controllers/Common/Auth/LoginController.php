@@ -3,11 +3,16 @@
 namespace App\Http\Controllers\Common\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Traits\CustomAuthenticatesUsers;
 
 class LoginController extends Controller
 {
-    public function index()
+    use CustomAuthenticatesUsers;
+
+    protected $redirectTo = '/';
+
+    public function __construct()
     {
-        return view('common.auth.login');
+        $this->middleware('guest')->except('logout');
     }
 }
