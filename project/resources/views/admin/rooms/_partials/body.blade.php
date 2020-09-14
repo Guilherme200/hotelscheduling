@@ -1,4 +1,4 @@
-<td>@{{ item.name }}</td>
+<td class="text-center">@{{ item.number }}</td>
 <td>@{{ item.description }}</td>
 <td>@{{ item.capacity }}</td>
 <td>@{{ item.hotel_name }}</td>

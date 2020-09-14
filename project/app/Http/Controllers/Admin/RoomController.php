@@ -5,8 +5,13 @@ namespace App\Http\Controllers\Admin;
 use App\Builders\PaginationBuilder;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\HotelRequest;
+use App\Http\Requests\Admin\RoomRequest;
 use App\Http\Resources\Admin\RoomResource;
+use App\Models\Category;
 use App\Models\Hotel;
+use App\Models\Room;
+use App\Repositories\CategoryRepository;
+use App\Repositories\HotelRepository;
 use App\Repositories\RoomRepository;
 
 class RoomController extends Controller
@@ -27,10 +32,13 @@ class RoomController extends Controller
 
     public function create()
     {
-        return view('admin.rooms.create');
+        $hotels = (new HotelRepository())->all();
+        $categories = (new CategoryRepository())->all();
+
+        return view('admin.rooms.create', compact('hotels', 'categories'));
     }
 
-    public function store(HotelRequest $request)
+    public function store(RoomRequest $request)
     {
         $data = $request->validated();
         $this->repository->create($data);
@@ -39,29 +47,35 @@ class RoomController extends Controller
         return $this->chooseReturn('success', $message, 'admin.rooms.index');
     }
 
-    public function edit(Hotel $hotel)
+    public function edit(Room $room)
     {
-        return view('admin.rooms.edit', compact('hotel'));
+        $hotels = (new HotelRepository())->all();
+        $categories = (new CategoryRepository())->all();
+
+        return view('admin.rooms.edit', compact('room', 'hotels', 'categories'));
     }
 
-    public function update(HotelRequest $request, Hotel $hotel)
+    public function update(RoomRequest $request, Room $room)
     {
         $data = $request->validated();
-        $hotel->update($data);
+        $room->update($data);
 
         $message = _m('common.success.update');
         return $this->chooseReturn('success', $message, 'admin.rooms.index');
     }
 
-    public function show(Hotel $hotel)
+    public function show(Room $room)
     {
-        return view('admin.rooms.show', compact('hotel'));
+        $hotels = (new HotelRepository())->all();
+        $categories = (new CategoryRepository())->all();
+
+        return view('admin.rooms.show', compact('room', 'hotels', 'categories'));
     }
 
-    public function destroy(Hotel $hotel)
+    public function destroy(Room $room)
     {
         try {
-            $hotel->delete();
+            $room->delete();
             return $this->chooseReturn('success', _m('common.success.destroy'));
         } catch (\Exception $e) {
             return $this->chooseReturn('error', _m('common.error.destroy'));

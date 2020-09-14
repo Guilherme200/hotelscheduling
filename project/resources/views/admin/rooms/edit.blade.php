@@ -18,7 +18,7 @@
 
 @section('content')
   <div class="card card-secondary">
-    <form class="form-horizontal" method="POST" action="{{ route('admin.rooms.update', $client) }}">
+    <form class="form-horizontal" method="POST" action="{{ route('admin.rooms.update', $room) }}">
       @method('PUT')
       <div class="card-body pb-0">
         @include('admin.rooms._partials.form')

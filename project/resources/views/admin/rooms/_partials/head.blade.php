@@ -1,6 +1,6 @@
 <tr>
-  <th sortable @click="orderBy('name', $event)">
-    @lang('labels.common.name')
+  <th sortable @click="orderBy('number', $event)">
+    @lang('labels.common.number')
   </th>
   <th sortable @click="orderBy('description', $event)">
     @lang('labels.common.description')

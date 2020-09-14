@@ -187,3 +187,8 @@ function format_date($date, $format = null, $from_format = null)
 
     return $date->format($format);
 }
+
+function form_item_selected($field1, $field2)
+{
+    return ($field1 == $field2) ? 'selected' : '';
+}

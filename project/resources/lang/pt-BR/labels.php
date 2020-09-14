@@ -26,6 +26,7 @@ return [
         'capacity' => 'Capacidade',
         'category' => 'Categoria',
         'hotel' => 'Hotel',
+        'number' => 'Número'
     ]
 
 ];

@@ -14,9 +14,10 @@ class RoomRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required|string|max:255',
+            'number' => 'required|integer|max:255',
             'description' => 'required|string|max:255',
             'capacity' => 'required|integer|max:10',
+            'hotel_id' => 'required|integer|exists:hotels,id',
             'category_id' => 'required|integer|exists:categories,id',
         ];
     }

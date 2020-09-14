@@ -13,6 +13,13 @@ return [
         'password_confirmation' => 'Insira a confirmação da sua senha'
     ],
 
+    'users' => [
+        'name' => 'Insira o nome',
+        'email' => 'Insira o email',
+        'password' => 'Insira a senha',
+        'password_confirmation' => 'Insira a confirmação da senha',
+    ],
+
     'hotels' => [
         'name' => 'Insira o nome',
         'phone' => 'Insira o telefone',
@@ -26,7 +33,7 @@ return [
     ],
 
     'rooms' => [
-        'name' => 'Insira o nome',
+        'number' => 'Insira o número',
         'description' => 'Insira a descrição',
         'capacity' => 'Insira o número de capacidade',
         'hotel' => 'Escolha o hotel',

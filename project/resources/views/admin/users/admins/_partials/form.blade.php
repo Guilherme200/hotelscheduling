@@ -8,6 +8,7 @@
     name="name"
     tabindex="1"
     required
+    placeholder="@lang('placeholders.users.name')"
     value="{{ old('name', $admin->name ?? '') }}"
     autofocus>
   <div class="is-invalid text-danger">{{ $errors->first('name') }}</div>
@@ -21,6 +22,7 @@
     class="form-control"
     name="email"
     tabindex="1"
+    placeholder="@lang('placeholders.users.email')"
     value="{{ old('email', $admin->email ?? '') }}"
     required
     autofocus>
@@ -29,7 +31,13 @@
 
 <div class="form-group">
   <label for="email">@lang('labels.common.password')</label>
-  <input id="password" type="password" class="form-control" name="password" tabindex="2">
+  <input
+    id="password"
+    type="password"
+    class="form-control"
+    name="password"
+    placeholder="@lang('placeholders.users.password')"
+    tabindex="2">
   <div class="is-invalid text-danger">{{ $errors->first('password') }}</div>
 </div>
 
@@ -38,6 +46,7 @@
   <input
     id="password_confirmation"
     type="password"
+    placeholder="@lang('placeholders.users.password_confirmation')"
     class="form-control"
     name="password_confirmation"
     tabindex="2">

@@ -9,7 +9,7 @@ class RoomResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'name' => data_get($this, 'name', ''),
+            'number' => data_get($this, 'number', ''),
             'description' => data_get($this, 'description', ''),
             'capacity' => data_get($this, 'capacity', ''),
             'category_name' => data_get($this, 'category.name', '-----'),
