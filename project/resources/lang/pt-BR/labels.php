@@ -18,7 +18,10 @@ return [
         'user' => 'Usuário',
         'title' => 'Título',
         'empty_select' => '-- Selecione --',
-        'redirect_url' => 'URL de redirecionamento'
+        'redirect_url' => 'URL de redirecionamento',
+        'phone' => 'Telefone',
+        'city' => 'Cidade',
+        'complement' => 'Complemento'
     ]
 
 ];

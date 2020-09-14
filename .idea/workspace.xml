@@ -20,19 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Common/RegisterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/flash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/HotelRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/HotelResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/Hotel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/HotelRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/database/seeds/HotelSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/buttons_actions.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/create_buttons.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/empty_table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/show_buttons.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/assets/scss/custom/auth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/scss/custom/auth.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/buttons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/auth.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/routes/common/unauthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/common/unauthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/assets/js/components/data-list/DataList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/js/components/data-list/DataList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/admin/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/pagination.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +237,7 @@
       <workItem from="1599786696405" duration="1763000" />
       <workItem from="1599825129718" duration="35000" />
       <workItem from="1599838472677" duration="7388000" />
-      <workItem from="1600041777508" duration="2732000" />
+      <workItem from="1600041777508" duration="10144000" />
     </task>
     <servers />
   </component>
@@ -270,9 +291,10 @@
     </state>
     <state x="2312" y="246" width="581" height="512" key="find.popup/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598458208215" />
     <state x="2593" y="280" width="551" height="512" key="find.popup/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599842345564" />
-    <state x="2266" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1599843526658">
-      <screen x="1920" y="105" width="1366" height="768" />
+    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup" timestamp="1600051688530">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600051688530" />
     <state x="2266" y="194" width="672" height="678" key="search.everywhere.popup/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599843526658" />
   </component>
 </project>

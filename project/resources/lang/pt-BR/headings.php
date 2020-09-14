@@ -31,5 +31,13 @@ return [
         'show' => 'Usuário Cliente :. Detalhes',
         'edit' => 'Usuário Cliente :. Edição',
         'create' => 'Usuário Cliente :. Novo',
+    ],
+
+    'hotels' => [
+        'label' => 'Hotéis',
+        'index' => 'Hotéis',
+        'show' => 'Hotéis :. Detalhes',
+        'edit' => 'Hotéis :. Edição',
+        'create' => 'Hotéis :. Novo',
     ]
 ];

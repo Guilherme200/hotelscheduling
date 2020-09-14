@@ -7,4 +7,4 @@
  * Namespace 'App\Http\Controllers\admin
  */
 
-
+Route::get('hotels', 'HotelController@pagination')->name('hotels');

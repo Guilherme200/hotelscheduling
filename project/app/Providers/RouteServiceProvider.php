@@ -46,7 +46,7 @@ class RouteServiceProvider extends ServiceProvider
 
         Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::ADMIN])
             ->prefix('pagination/admin')
-            ->name('ajax.admin.')
+            ->name('pagination.admin.')
             ->namespace($namespace)
             ->group(base_path('routes/admin/pagination.php'));
     }
