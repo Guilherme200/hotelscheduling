@@ -12,6 +12,17 @@
   
   <li class="active">
     <a class="nav-link"
+       href="{{ route('admin.admins.index') }}"
+       data-toggle="tooltip"
+       data-placement="right"
+       title="@lang('links.common.users')">
+      <i class="fas fa-users"></i>
+      <span>@lang('links.common.users')</span>
+    </a>
+  </li>
+  
+  <li class="active">
+    <a class="nav-link"
        href="{{ route('admin.hotels.index') }}"
        data-toggle="tooltip"
        data-placement="right"
@@ -29,17 +40,6 @@
        title="@lang('links.common.reservations')">
       <i class="fas fa-tachometer-alt"></i>
       <span>@lang('links.common.reservations')</span>
-    </a>
-  </li>
-  
-  <li class="active">
-    <a class="nav-link"
-       href="#"
-       data-toggle="tooltip"
-       data-placement="right"
-       title="@lang('links.common.users')">
-      <i class="fas fa-tachometer-alt"></i>
-      <span>@lang('links.common.users')</span>
     </a>
   </li>
   

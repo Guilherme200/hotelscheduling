@@ -20,37 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/HotelRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/HotelResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Models/Hotel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/HotelRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/database/seeds/HotelSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/_partials/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/hotels/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/buttons_actions.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/create_buttons.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/empty_table.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/shared/show_buttons.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/ClientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/AdminRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/ClientRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/UserResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/User/UserRole.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/dates.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/tabs.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/public/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/assets/js/components/data-list/DataList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/js/components/data-list/DataList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/UserRole.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/pagination.php" afterDir="false" />
@@ -183,7 +180,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -194,19 +191,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/app/Http/Controllers/Client" />
-      <recent name="$PROJECT_DIR$/project/resources/views/client" />
-      <recent name="$PROJECT_DIR$/project/routes/admin" />
-      <recent name="$PROJECT_DIR$/project/routes/client" />
-      <recent name="$PROJECT_DIR$/project/routes/common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users" />
       <recent name="$PROJECT_DIR$/project/resources/views" />
       <recent name="$PROJECT_DIR$/project/routes" />
       <recent name="$PROJECT_DIR$/project/routes/web" />
       <recent name="$PROJECT_DIR$/project/resources/views/common" />
-      <recent name="$PROJECT_DIR$/project/app/Support" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials" />
+      <recent name="$PROJECT_DIR$/project/app/Http/Requests/Admin" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/admins" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -237,7 +234,7 @@
       <workItem from="1599786696405" duration="1763000" />
       <workItem from="1599825129718" duration="35000" />
       <workItem from="1599838472677" duration="7388000" />
-      <workItem from="1600041777508" duration="10144000" />
+      <workItem from="1600041777508" duration="15258000" />
     </task>
     <servers />
   </component>
@@ -261,11 +258,12 @@
       <screen x="1920" y="105" width="1366" height="768" />
     </state>
     <state x="2198" y="164" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599756493896" />
-    <state x="2595" y="323" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599839329132">
-      <screen x="1920" y="105" width="1366" height="768" />
+    <state x="675" y="237" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600056185790">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="2315" y="306" width="565" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598460078554" />
     <state x="675" y="237" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1598763114816" />
+    <state x="675" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1600056185790" />
     <state x="2595" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599839329132" />
     <state x="2534" y="132" width="742" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599841347171">
       <screen x="1920" y="105" width="1366" height="768" />
@@ -275,6 +273,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2336" y="252" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598457917906" />
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600059965091">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1600059965091" />
     <state x="2386" y="234" width="306" height="378" key="FileChooserDialogImpl" timestamp="1599845862938">
       <screen x="1920" y="105" width="1366" height="768" />
     </state>
@@ -291,10 +293,10 @@
     </state>
     <state x="2312" y="246" width="581" height="512" key="find.popup/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598458208215" />
     <state x="2593" y="280" width="551" height="512" key="find.popup/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599842345564" />
-    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup" timestamp="1600051688530">
+    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup" timestamp="1600057466970">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600051688530" />
+    <state x="346" y="113" width="672" height="655" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600057466970" />
     <state x="2266" y="194" width="672" height="678" key="search.everywhere.popup/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599843526658" />
   </component>
 </project>

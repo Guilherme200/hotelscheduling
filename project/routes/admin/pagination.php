@@ -7,4 +7,6 @@
  * Namespace 'App\Http\Controllers\admin
  */
 
+Route::get('users/admins', 'AdminController@pagination')->name('admins');
+Route::get('users/clients', 'ClientController@pagination')->name('clients');
 Route::get('hotels', 'HotelController@pagination')->name('hotels');

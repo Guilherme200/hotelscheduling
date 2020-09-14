@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repositories\Criterias\Common;
+namespace App\Repositories\Criterias\User;
 
 use App\Repositories\Criterias\Criteria;
 use App\Repositories\Repository;

@@ -164,3 +164,26 @@ if (!function_exists('is_valid_url')) {
         return (bool)filter_var($url, FILTER_VALIDATE_URL);
     }
 }
+
+function format_date($date, $format = null, $from_format = null)
+{
+    if ($date == null) {
+        return null;
+    }
+
+    if ($format == null) {
+        $format = __('dates.php.dateTimeFormat');
+    }
+
+    if ($date instanceof \Carbon\Carbon) {
+        return $date->format($format);
+    }
+
+    if ($from_format != null) {
+        $date = \Carbon\Carbon::createFromFormat($from_format, $date);
+    } else {
+        $date = \Carbon\Carbon::parse($date);
+    }
+
+    return $date->format($format);
+}

@@ -4,6 +4,7 @@ return [
     'common' => [
         'home' => 'Dashboard',
         'users' => 'Usuários',
+        'admins' => 'Administradores',
     ],
 
     'auth' => [
@@ -39,5 +40,5 @@ return [
         'show' => 'Hotéis :. Detalhes',
         'edit' => 'Hotéis :. Edição',
         'create' => 'Hotéis :. Novo',
-    ]
+    ],
 ];
