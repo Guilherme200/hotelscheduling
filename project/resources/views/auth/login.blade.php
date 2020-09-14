@@ -28,7 +28,7 @@
       
       <div class="text-center mt-5 mb-3">
         <div class="mt-3 text-muted text-center">
-          @lang('phrases.auth.not_account') <a href="#">@lang('links.auth.register')</a>
+          @lang('phrases.auth.not_account') <a href="{{ route('register') }}">@lang('links.auth.register')</a>
         </div>
       </div>
     </div>

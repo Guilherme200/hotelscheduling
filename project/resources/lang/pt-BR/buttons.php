@@ -9,7 +9,8 @@ return [
         'destroy' => 'Excluir',
         'save' => 'Salvar',
         'access' => 'Acessar',
-        'login' => 'Logar'
+        'login' => 'Logar',
+        'register' => 'Cadastrar-se'
     ],
 
     'auth' => [

@@ -157,3 +157,10 @@ if (!function_exists('flash')) {
 		return new Flash();
 	}
 }
+
+if (!function_exists('is_valid_url')) {
+    function is_valid_url($url)
+    {
+        return (bool)filter_var($url, FILTER_VALIDATE_URL);
+    }
+}

@@ -20,22 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Client/DashboardController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/WelcomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Common/RegisterRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/flash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Common/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/routes/client/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/client/authenticated.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/routes/common/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/common/authenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/public/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/assets/scss/custom/auth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/assets/scss/custom/auth.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/buttons.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/buttons.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/auth.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/auth.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/common/unauthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/common/unauthenticated.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -220,7 +216,7 @@
       <workItem from="1599786696405" duration="1763000" />
       <workItem from="1599825129718" duration="35000" />
       <workItem from="1599838472677" duration="7388000" />
-      <workItem from="1600041777508" duration="774000" />
+      <workItem from="1600041777508" duration="2732000" />
     </task>
     <servers />
   </component>
