@@ -12,6 +12,7 @@ class RouteServiceProvider extends ServiceProvider
 
     public function boot()
     {
+        Route::pattern('id', '[0-9]+');
         parent::boot();
     }
 
@@ -32,7 +33,7 @@ class RouteServiceProvider extends ServiceProvider
         $namespace = $this->namespace . '\Admin';
 
         Route::middleware(['web', 'auth', 'user-type:' . UserRolesEnum::ADMIN])
-            ->prefix('admin')
+            ->prefix('admin/')
             ->name('admin.')
             ->namespace($namespace)
             ->group(base_path('routes/admin/authenticated.php'));

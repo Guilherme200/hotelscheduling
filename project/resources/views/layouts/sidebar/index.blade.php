@@ -10,7 +10,10 @@
       <a href="{{ route('home') }}">@lang('labels.common.menu')</a>
     </div>
     
-    @include('layouts.sidebar._partials.admin')
-    @include('layouts.sidebar._partials.client')
+    @if (current_user()->hasRole(\App\Enums\UserRolesEnum::ADMIN))
+      @include('layouts.sidebar._partials.admin')
+    @else
+      @include('layouts.sidebar._partials.client')
+    @endif
   </aside>
 </div>

@@ -2,7 +2,7 @@
 return [
 
     'common' => [
-        'home' => 'Home',
+        'home' => 'Dashboard',
         'users' => 'Usuários',
     ],
 

@@ -7,4 +7,4 @@
  * Namespace 'App\Http\Controllers\admin
  */
 
-
+Route::get('dashboard', 'DashboardController@index')->name('dashboard');

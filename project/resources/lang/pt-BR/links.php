@@ -8,7 +8,12 @@ return [
         'destroy' => 'Apagar',
         'details' => 'Detalhes',
         'edit' => 'Editar',
-        'home' => 'Home',
+        'home' => 'Dashboard',
+        'users' => 'Usuários',
+        'reservations' => 'Reservas',
+        'hotels' => 'Hoteis',
+        'rooms' => 'Quartos',
+        'categories' => 'Categorias',
         'list' => 'Listar',
         'new' => 'Novo',
         'profile' => 'Meus dados',
@@ -16,6 +21,7 @@ return [
         'save' => 'Salvar',
         'show' => 'Visualizar',
         'update' => 'Atualizar',
+        'logout' => 'Sair'
     ],
 
     'errors' => [
@@ -28,5 +34,5 @@ return [
         'back_to_login' => 'Retornar ao login',
         'register' => 'Criar conta'
 
-    ]
+    ],
 ];
