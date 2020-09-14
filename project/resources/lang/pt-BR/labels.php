@@ -22,7 +22,10 @@ return [
         'phone' => 'Telefone',
         'city' => 'Cidade',
         'complement' => 'Complemento',
-        'description' => 'Descrição'
+        'description' => 'Descrição',
+        'capacity' => 'Capacidade',
+        'category' => 'Categoria',
+        'hotel' => 'Hotel',
     ]
 
 ];

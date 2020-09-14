@@ -12,3 +12,4 @@ Route::resource('admins', 'AdminController');
 Route::resource('clients', 'ClientController');
 Route::resource('hotels', 'HotelController');
 Route::resource('categories', 'CategoryController');
+Route::resource('rooms', 'RoomController');

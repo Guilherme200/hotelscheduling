@@ -49,4 +49,12 @@ return [
         'edit' => 'Categorias :. Edição',
         'create' => 'Categorias :. Novo',
     ],
+
+    'rooms' => [
+        'label' => 'Quartos',
+        'index' => 'Quartos',
+        'show' => 'Quartos :. Detalhes',
+        'edit' => 'Quartos :. Edição',
+        'create' => 'Quartos :. Novo',
+    ],
 ];

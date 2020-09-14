@@ -21,7 +21,7 @@ return [
         'save' => 'Salvar',
         'show' => 'Visualizar',
         'update' => 'Atualizar',
-        'logout' => 'Sair'
+        'logout' => 'Sair',
     ],
 
     'errors' => [

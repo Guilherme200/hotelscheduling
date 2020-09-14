@@ -24,4 +24,12 @@ return [
         'name' => 'Insira o nome',
         'description' => 'Insira a descrição'
     ],
+
+    'rooms' => [
+        'name' => 'Insira o nome',
+        'description' => 'Insira a descrição',
+        'capacity' => 'Insira o número de capacidade',
+        'hotel' => 'Escolha o hotel',
+        'category' => 'Escolha a categoria',
+    ],
 ];

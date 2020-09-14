@@ -20,26 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/CategoryRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/CategoryResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/RoomController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/RoomRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/RoomResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/Room.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/RoomRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Repositories/BaseRepository.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/pagination.php" afterDir="false" />
@@ -172,7 +169,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/admin/categories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/admin/rooms" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,19 +180,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/categories" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/resources/views/admin/users" />
       <recent name="$PROJECT_DIR$/project/resources/views" />
       <recent name="$PROJECT_DIR$/project/routes" />
       <recent name="$PROJECT_DIR$/project/routes/web" />
       <recent name="$PROJECT_DIR$/project/resources/views/common" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials" />
-      <recent name="$PROJECT_DIR$/project/app/Http/Requests/Admin" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/admins" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -228,7 +225,7 @@
       <workItem from="1599838472677" duration="7388000" />
       <workItem from="1600041777508" duration="15258000" />
       <workItem from="1600084583324" duration="143000" />
-      <workItem from="1600096724575" duration="1816000" />
+      <workItem from="1600096724575" duration="4143000" />
     </task>
     <servers />
   </component>

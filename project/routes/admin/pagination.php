@@ -11,3 +11,4 @@ Route::get('users/admins', 'AdminController@pagination')->name('admins');
 Route::get('users/clients', 'ClientController@pagination')->name('clients');
 Route::get('hotels', 'HotelController@pagination')->name('hotels');
 Route::get('categories', 'CategoryController@pagination')->name('categories');
+Route::get('rooms', 'RoomController@pagination')->name('rooms');

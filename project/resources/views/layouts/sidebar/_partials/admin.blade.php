@@ -45,12 +45,12 @@
   
   <li class="active">
     <a class="nav-link"
-       href="#"
+       href="{{ route('admin.rooms.index') }}"
        data-toggle="tooltip"
        data-placement="right"
-       title="@lang('links.common.reservations')">
-      <i class="fas fa-tachometer-alt"></i>
-      <span>@lang('links.common.reservations')</span>
+       title="@lang('links.common.rooms')">
+      <i class="fas fa-bed"></i>
+      <span>@lang('links.common.rooms')</span>
     </a>
   </li>
 </ul>
