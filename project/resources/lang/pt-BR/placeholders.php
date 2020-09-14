@@ -18,5 +18,10 @@ return [
         'phone' => 'Insira o telefone',
         'city' => 'Insira a cidade',
         'complement' => 'Insira o complemento'
-    ]
+    ],
+
+    'categories' => [
+        'name' => 'Insira o nome',
+        'description' => 'Insira a descrição'
+    ],
 ];

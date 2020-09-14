@@ -34,12 +34,12 @@
   
   <li class="active">
     <a class="nav-link"
-       href="#"
+       href="{{ route('admin.categories.index') }}"
        data-toggle="tooltip"
        data-placement="right"
-       title="@lang('links.common.reservations')">
-      <i class="fas fa-tachometer-alt"></i>
-      <span>@lang('links.common.reservations')</span>
+       title="@lang('links.common.categories')">
+      <i class="fas fa-th"></i>
+      <span>@lang('links.common.categories')</span>
     </a>
   </li>
   
@@ -48,9 +48,9 @@
        href="#"
        data-toggle="tooltip"
        data-placement="right"
-       title="@lang('links.common.categories')">
+       title="@lang('links.common.reservations')">
       <i class="fas fa-tachometer-alt"></i>
-      <span>@lang('links.common.categories')</span>
+      <span>@lang('links.common.reservations')</span>
     </a>
   </li>
 </ul>

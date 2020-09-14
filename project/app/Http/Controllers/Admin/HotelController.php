@@ -47,10 +47,10 @@ class HotelController extends Controller
     public function update(HotelRequest $request, Hotel $hotel)
     {
         $data = $request->validated();
-        $hotel = $hotel->update($data);
+        $hotel->update($data);
 
         $message = _m('common.success.update');
-        return $this->chooseReturn('success', $message, 'admin.hotels.edit', $hotel);
+        return $this->chooseReturn('success', $message, 'admin.hotels.index');
     }
 
     public function show(Hotel $hotel)

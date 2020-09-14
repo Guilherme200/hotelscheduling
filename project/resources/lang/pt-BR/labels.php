@@ -21,7 +21,8 @@ return [
         'redirect_url' => 'URL de redirecionamento',
         'phone' => 'Telefone',
         'city' => 'Cidade',
-        'complement' => 'Complemento'
+        'complement' => 'Complemento',
+        'description' => 'Descrição'
     ]
 
 ];

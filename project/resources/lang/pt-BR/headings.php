@@ -41,4 +41,12 @@ return [
         'edit' => 'Hotéis :. Edição',
         'create' => 'Hotéis :. Novo',
     ],
+
+    'categories' => [
+        'label' => 'Categorias',
+        'index' => 'Categorias',
+        'show' => 'Categorias :. Detalhes',
+        'edit' => 'Categorias :. Edição',
+        'create' => 'Categorias :. Novo',
+    ],
 ];

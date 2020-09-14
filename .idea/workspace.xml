@@ -20,34 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/ClientController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/AdminRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/ClientRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/UserResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/User/UserRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/dates.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials/head.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/users/tabs.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/CategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/CategoryResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/CategoryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/categories/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/UserRole.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Repositories/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/HotelController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Repositories/BaseRepository.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/users/clients/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/routes/admin/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/pagination.php" afterDir="false" />
@@ -180,7 +172,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/admin/categories" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -235,6 +227,8 @@
       <workItem from="1599825129718" duration="35000" />
       <workItem from="1599838472677" duration="7388000" />
       <workItem from="1600041777508" duration="15258000" />
+      <workItem from="1600084583324" duration="143000" />
+      <workItem from="1600096724575" duration="1816000" />
     </task>
     <servers />
   </component>
@@ -277,13 +271,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1600059965091" />
-    <state x="2386" y="234" width="306" height="378" key="FileChooserDialogImpl" timestamp="1599845862938">
+    <state x="2386" y="234" width="306" height="378" key="FileChooserDialogImpl" timestamp="1600084724679">
       <screen x="1920" y="105" width="1366" height="768" />
     </state>
     <state x="2021" y="182" width="424" height="491" key="FileChooserDialogImpl/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598460869928" />
     <state x="466" y="151" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1598753854221" />
     <state x="2386" y="155" width="424" height="491" key="FileChooserDialogImpl/1920.0.1366.768/0.27.1920.1053@1920.0.1366.768" timestamp="1598286581199" />
-    <state x="2386" y="234" width="306" height="378" key="FileChooserDialogImpl/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599845862938" />
+    <state x="2386" y="234" width="306" height="378" key="FileChooserDialogImpl/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1600084724679" />
     <state x="187" y="31" width="992" height="737" key="SettingsEditor" timestamp="1600042449678">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

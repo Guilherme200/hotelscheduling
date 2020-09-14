@@ -7,7 +7,6 @@ use App\Enums\UserRolesEnum;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\AdminRequest;
 use App\Http\Resources\Admin\UserResource;
-use App\Models\Hotel;
 use App\Models\User;
 use App\Repositories\Criterias\User\UserRole;
 use App\Repositories\UserRepository;
