@@ -26,4 +26,9 @@ class Room extends Model
     {
         return $this->belongsTo(Category::class);
     }
+
+    public function reservation()
+    {
+        return $this->hasOne(Reservation::class);
+    }
 }

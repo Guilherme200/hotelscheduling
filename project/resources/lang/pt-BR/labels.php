@@ -28,7 +28,8 @@ return [
         'hotel' => 'Hotel',
         'number' => 'Número',
         'room' => 'Quarto',
-        'reserved_at' => 'Reservado em'
+        'reserved_at' => 'Reservado em',
+        'my_reservations' => 'Minhas reservas'
     ]
 
 ];

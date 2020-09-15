@@ -1407,17 +1407,17 @@ true posixrules
     <database id="2" parent="1" name="hotel">
       <ObjectId>16384</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>974</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1045</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|17525|17527|1
-sequence|table|17533|17535|1
-sequence|table|17553|17555|1
-sequence|table|17565|17567|1
-sequence|table|17576|17578|1
-sequence|table|17624|17626|1
-sequence|table|17635|17637|1
-sequence|table|17646|17648|1
-sequence|table|17665|17667|1
+      <Relations>sequence|table|17683|17685|1
+sequence|table|17691|17693|1
+sequence|table|17711|17713|1
+sequence|table|17723|17725|1
+sequence|table|17734|17736|1
+sequence|table|17782|17784|1
+sequence|table|17793|17795|1
+sequence|table|17804|17806|1
+sequence|table|17822|17824|1
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -1465,7 +1465,7 @@ sequence|table|17665|17667|1
       <Comment>standard public schema</Comment>
       <StateNumber>351</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>975</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1046</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="13" parent="2" name="btree">
@@ -1529,138 +1529,138 @@ sequence|table|17665|17667|1
     <language id="22" parent="2" name="plpgsql"/>
     <language id="23" parent="2" name="sql"/>
     <sequence id="24" parent="12" name="categories_id_seq">
-      <ObjectId>17635</ObjectId>
+      <ObjectId>17793</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="25" parent="12" name="failed_jobs_id_seq">
-      <ObjectId>17553</ObjectId>
+      <ObjectId>17711</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="26" parent="12" name="hotels_id_seq">
-      <ObjectId>17624</ObjectId>
+      <ObjectId>17782</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="27" parent="12" name="migrations_id_seq">
-      <ObjectId>17525</ObjectId>
+      <ObjectId>17683</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>912</StateNumber>
+      <StateNumber>985</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>integer|0s</DataType>
     </sequence>
     <sequence id="28" parent="12" name="permissions_id_seq">
-      <ObjectId>17565</ObjectId>
+      <ObjectId>17723</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="29" parent="12" name="reservations_id_seq">
-      <ObjectId>17665</ObjectId>
+      <ObjectId>17822</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="30" parent="12" name="roles_id_seq">
-      <ObjectId>17576</ObjectId>
+      <ObjectId>17734</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="31" parent="12" name="rooms_id_seq">
-      <ObjectId>17646</ObjectId>
+      <ObjectId>17804</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="32" parent="12" name="users_id_seq">
-      <ObjectId>17533</ObjectId>
+      <ObjectId>17691</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <DataType>bigint|0s</DataType>
     </sequence>
     <table id="33" parent="12" name="categories">
-      <ObjectId>17637</ObjectId>
+      <ObjectId>17795</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
     </table>
     <table id="34" parent="12" name="failed_jobs">
-      <ObjectId>17555</ObjectId>
+      <ObjectId>17713</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
     </table>
     <table id="35" parent="12" name="hotels">
-      <ObjectId>17626</ObjectId>
+      <ObjectId>17784</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
     </table>
     <table id="36" parent="12" name="migrations">
-      <ObjectId>17527</ObjectId>
+      <ObjectId>17685</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>912</StateNumber>
+      <StateNumber>985</StateNumber>
     </table>
     <table id="37" parent="12" name="model_has_permissions">
-      <ObjectId>17587</ObjectId>
+      <ObjectId>17745</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
     </table>
     <table id="38" parent="12" name="model_has_roles">
-      <ObjectId>17598</ObjectId>
+      <ObjectId>17756</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
     </table>
     <table id="39" parent="12" name="password_resets">
-      <ObjectId>17546</ObjectId>
+      <ObjectId>17704</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>915</StateNumber>
+      <StateNumber>988</StateNumber>
     </table>
     <table id="40" parent="12" name="permissions">
-      <ObjectId>17567</ObjectId>
+      <ObjectId>17725</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
     </table>
     <table id="41" parent="12" name="reservations">
-      <ObjectId>17667</ObjectId>
+      <ObjectId>17824</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
     </table>
     <table id="42" parent="12" name="role_has_permissions">
-      <ObjectId>17609</ObjectId>
+      <ObjectId>17767</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
     </table>
     <table id="43" parent="12" name="roles">
-      <ObjectId>17578</ObjectId>
+      <ObjectId>17736</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
     </table>
     <table id="44" parent="12" name="rooms">
-      <ObjectId>17648</ObjectId>
+      <ObjectId>17806</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
     </table>
     <table id="45" parent="12" name="users">
-      <ObjectId>17535</ObjectId>
+      <ObjectId>17693</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
     </table>
     <column id="46" parent="33" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <DefaultExpression>nextval(&apos;categories_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -1668,38 +1668,38 @@ sequence|table|17665|17667|1
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="48" parent="33" name="description">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="49" parent="33" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="50" parent="33" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>923</StateNumber>
+      <StateNumber>996</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="51" parent="33" name="categories_pkey">
-      <ObjectId>17644</ObjectId>
-      <StateNumber>923</StateNumber>
+      <ObjectId>17802</ObjectId>
+      <StateNumber>996</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="52" parent="33" name="categories_pkey">
-      <ObjectId>17645</ObjectId>
-      <StateNumber>923</StateNumber>
+      <ObjectId>17803</ObjectId>
+      <StateNumber>996</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>categories_pkey</UnderlyingIndexName>
@@ -1708,7 +1708,7 @@ sequence|table|17665|17667|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <DefaultExpression>nextval(&apos;failed_jobs_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -1716,48 +1716,48 @@ sequence|table|17665|17667|1
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="55" parent="34" name="queue">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="56" parent="34" name="payload">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="57" parent="34" name="exception">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <TypeId>25</TypeId>
     </column>
     <column id="58" parent="34" name="failed_at">
       <Position>6</Position>
       <DataType>timestamp(0)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>917</StateNumber>
+      <StateNumber>990</StateNumber>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <TypeId>1114</TypeId>
     </column>
     <index id="59" parent="34" name="failed_jobs_pkey">
-      <ObjectId>17563</ObjectId>
-      <StateNumber>917</StateNumber>
+      <ObjectId>17721</ObjectId>
+      <StateNumber>990</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="60" parent="34" name="failed_jobs_pkey">
-      <ObjectId>17564</ObjectId>
-      <StateNumber>917</StateNumber>
+      <ObjectId>17722</ObjectId>
+      <StateNumber>990</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>failed_jobs_pkey</UnderlyingIndexName>
@@ -1766,7 +1766,7 @@ sequence|table|17665|17667|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <DefaultExpression>nextval(&apos;hotels_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -1774,51 +1774,51 @@ sequence|table|17665|17667|1
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="63" parent="35" name="phone">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="64" parent="35" name="city">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="65" parent="35" name="complement">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="66" parent="35" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="67" parent="35" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>921</StateNumber>
+      <StateNumber>994</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="68" parent="35" name="hotels_pkey">
-      <ObjectId>17633</ObjectId>
-      <StateNumber>921</StateNumber>
+      <ObjectId>17791</ObjectId>
+      <StateNumber>994</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="69" parent="35" name="hotels_pkey">
-      <ObjectId>17634</ObjectId>
-      <StateNumber>921</StateNumber>
+      <ObjectId>17792</ObjectId>
+      <StateNumber>994</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>hotels_pkey</UnderlyingIndexName>
@@ -1827,7 +1827,7 @@ sequence|table|17665|17667|1
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>912</StateNumber>
+      <StateNumber>985</StateNumber>
       <DefaultExpression>nextval(&apos;migrations_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
@@ -1835,26 +1835,26 @@ sequence|table|17665|17667|1
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>912</StateNumber>
+      <StateNumber>985</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="72" parent="36" name="batch">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>912</StateNumber>
+      <StateNumber>985</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <index id="73" parent="36" name="migrations_pkey">
-      <ObjectId>17531</ObjectId>
-      <StateNumber>912</StateNumber>
+      <ObjectId>17689</ObjectId>
+      <StateNumber>985</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="74" parent="36" name="migrations_pkey">
-      <ObjectId>17532</ObjectId>
-      <StateNumber>912</StateNumber>
+      <ObjectId>17690</ObjectId>
+      <StateNumber>985</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>migrations_pkey</UnderlyingIndexName>
@@ -1863,26 +1863,26 @@ sequence|table|17665|17667|1
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="76" parent="37" name="model_type">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="77" parent="37" name="model_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="78" parent="37" name="model_has_permissions_pkey">
-      <ObjectId>17596</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17754</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id
 model_id
 model_type</ColNames>
@@ -1890,14 +1890,14 @@ model_type</ColNames>
       <Primary>1</Primary>
     </index>
     <index id="79" parent="37" name="model_has_permissions_model_id_model_type_index">
-      <ObjectId>17590</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17748</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>model_id
 model_type</ColNames>
     </index>
     <key id="80" parent="37" name="model_has_permissions_pkey">
-      <ObjectId>17597</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17755</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id
 model_id
 model_type</ColNames>
@@ -1905,10 +1905,10 @@ model_type</ColNames>
       <UnderlyingIndexName>model_has_permissions_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="81" parent="37" name="model_has_permissions_permission_id_foreign">
-      <ObjectId>17591</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17749</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id</ColNames>
-      <RefTableId>17567</RefTableId>
+      <RefTableId>17725</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>permissions</RefTableName>
       <RefKeyName>permissions_pkey</RefKeyName>
@@ -1919,26 +1919,26 @@ model_type</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="83" parent="38" name="model_type">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="84" parent="38" name="model_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="85" parent="38" name="model_has_roles_pkey">
-      <ObjectId>17607</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17765</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>role_id
 model_id
 model_type</ColNames>
@@ -1946,14 +1946,14 @@ model_type</ColNames>
       <Primary>1</Primary>
     </index>
     <index id="86" parent="38" name="model_has_roles_model_id_model_type_index">
-      <ObjectId>17601</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17759</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>model_id
 model_type</ColNames>
     </index>
     <key id="87" parent="38" name="model_has_roles_pkey">
-      <ObjectId>17608</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17766</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>role_id
 model_id
 model_type</ColNames>
@@ -1961,10 +1961,10 @@ model_type</ColNames>
       <UnderlyingIndexName>model_has_roles_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="88" parent="38" name="model_has_roles_role_id_foreign">
-      <ObjectId>17602</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17760</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>role_id</ColNames>
-      <RefTableId>17578</RefTableId>
+      <RefTableId>17736</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>roles</RefTableName>
       <RefKeyName>roles_pkey</RefKeyName>
@@ -1975,32 +1975,32 @@ model_type</ColNames>
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>915</StateNumber>
+      <StateNumber>988</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="90" parent="39" name="token">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>915</StateNumber>
+      <StateNumber>988</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="91" parent="39" name="created_at">
       <Position>3</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>915</StateNumber>
+      <StateNumber>988</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="92" parent="39" name="password_resets_email_index">
-      <ObjectId>17552</ObjectId>
-      <StateNumber>915</StateNumber>
+      <ObjectId>17710</ObjectId>
+      <StateNumber>988</StateNumber>
       <ColNames>email</ColNames>
     </index>
     <column id="93" parent="40" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <DefaultExpression>nextval(&apos;permissions_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -2008,38 +2008,38 @@ model_type</ColNames>
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="95" parent="40" name="guard_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="96" parent="40" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="97" parent="40" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="98" parent="40" name="permissions_pkey">
-      <ObjectId>17574</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17732</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="99" parent="40" name="permissions_pkey">
-      <ObjectId>17575</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17733</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>permissions_pkey</UnderlyingIndexName>
@@ -2048,7 +2048,7 @@ model_type</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <DefaultExpression>nextval(&apos;reservations_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -2056,57 +2056,57 @@ model_type</ColNames>
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="102" parent="41" name="room_id">
       <Position>3</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="103" parent="41" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="104" parent="41" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>972</StateNumber>
+      <StateNumber>1000</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="105" parent="41" name="reservations_pkey">
-      <ObjectId>17671</ObjectId>
-      <StateNumber>972</StateNumber>
+      <ObjectId>17828</ObjectId>
+      <StateNumber>1000</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="106" parent="41" name="reservations_pkey">
-      <ObjectId>17672</ObjectId>
-      <StateNumber>972</StateNumber>
+      <ObjectId>17829</ObjectId>
+      <StateNumber>1000</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>reservations_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="107" parent="41" name="reservations_user_id_foreign">
-      <ObjectId>17673</ObjectId>
-      <StateNumber>972</StateNumber>
+      <ObjectId>17830</ObjectId>
+      <StateNumber>1000</StateNumber>
       <ColNames>user_id</ColNames>
-      <RefTableId>17535</RefTableId>
+      <RefTableId>17693</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>users</RefTableName>
       <RefKeyName>users_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="108" parent="41" name="reservations_room_id_foreign">
-      <ObjectId>17678</ObjectId>
-      <StateNumber>972</StateNumber>
+      <ObjectId>17835</ObjectId>
+      <StateNumber>1000</StateNumber>
       <ColNames>room_id</ColNames>
-      <RefTableId>17648</RefTableId>
+      <RefTableId>17806</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>rooms</RefTableName>
       <RefKeyName>rooms_pkey</RefKeyName>
@@ -2116,37 +2116,37 @@ model_type</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="110" parent="42" name="role_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="111" parent="42" name="role_has_permissions_pkey">
-      <ObjectId>17622</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17780</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id
 role_id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="112" parent="42" name="role_has_permissions_pkey">
-      <ObjectId>17623</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17781</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id
 role_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>role_has_permissions_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="113" parent="42" name="role_has_permissions_permission_id_foreign">
-      <ObjectId>17612</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17770</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>permission_id</ColNames>
-      <RefTableId>17567</RefTableId>
+      <RefTableId>17725</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>permissions</RefTableName>
       <RefKeyName>permissions_pkey</RefKeyName>
@@ -2154,10 +2154,10 @@ role_id</ColNames>
       <OnDelete>cascade</OnDelete>
     </foreign-key>
     <foreign-key id="114" parent="42" name="role_has_permissions_role_id_foreign">
-      <ObjectId>17617</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17775</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>role_id</ColNames>
-      <RefTableId>17578</RefTableId>
+      <RefTableId>17736</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>roles</RefTableName>
       <RefKeyName>roles_pkey</RefKeyName>
@@ -2168,7 +2168,7 @@ role_id</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <DefaultExpression>nextval(&apos;roles_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -2176,38 +2176,38 @@ role_id</ColNames>
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="117" parent="43" name="guard_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="118" parent="43" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="119" parent="43" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>919</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="120" parent="43" name="roles_pkey">
-      <ObjectId>17585</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17743</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="121" parent="43" name="roles_pkey">
-      <ObjectId>17586</ObjectId>
-      <StateNumber>919</StateNumber>
+      <ObjectId>17744</ObjectId>
+      <StateNumber>992</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
@@ -2216,7 +2216,7 @@ role_id</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <DefaultExpression>nextval(&apos;rooms_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -2224,78 +2224,78 @@ role_id</ColNames>
       <Position>2</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="124" parent="44" name="description">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="125" parent="44" name="capacity">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="126" parent="44" name="category_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="127" parent="44" name="hotel_id">
       <Position>6</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <column id="128" parent="44" name="created_at">
       <Position>7</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="129" parent="44" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>925</StateNumber>
+      <StateNumber>998</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="130" parent="44" name="rooms_pkey">
-      <ObjectId>17652</ObjectId>
-      <StateNumber>925</StateNumber>
+      <ObjectId>17810</ObjectId>
+      <StateNumber>998</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <key id="131" parent="44" name="rooms_pkey">
-      <ObjectId>17653</ObjectId>
-      <StateNumber>925</StateNumber>
+      <ObjectId>17811</ObjectId>
+      <StateNumber>998</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>rooms_pkey</UnderlyingIndexName>
     </key>
     <foreign-key id="132" parent="44" name="rooms_category_id_foreign">
-      <ObjectId>17654</ObjectId>
-      <StateNumber>925</StateNumber>
+      <ObjectId>17812</ObjectId>
+      <StateNumber>998</StateNumber>
       <ColNames>category_id</ColNames>
-      <RefTableId>17637</RefTableId>
+      <RefTableId>17795</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>categories</RefTableName>
       <RefKeyName>categories_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
     <foreign-key id="133" parent="44" name="rooms_hotel_id_foreign">
-      <ObjectId>17659</ObjectId>
-      <StateNumber>925</StateNumber>
+      <ObjectId>17817</ObjectId>
+      <StateNumber>998</StateNumber>
       <ColNames>hotel_id</ColNames>
-      <RefTableId>17626</RefTableId>
+      <RefTableId>17784</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>hotels</RefTableName>
       <RefKeyName>hotels_pkey</RefKeyName>
@@ -2305,7 +2305,7 @@ role_id</ColNames>
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
@@ -2313,64 +2313,64 @@ role_id</ColNames>
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="136" parent="45" name="email">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="137" parent="45" name="password">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="138" parent="45" name="remember_token">
       <Position>5</Position>
       <DataType>varchar(100)|0s</DataType>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="139" parent="45" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="140" parent="45" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(0)|0s</DataType>
-      <StateNumber>913</StateNumber>
+      <StateNumber>986</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="141" parent="45" name="users_pkey">
-      <ObjectId>17542</ObjectId>
-      <StateNumber>913</StateNumber>
+      <ObjectId>17700</ObjectId>
+      <StateNumber>986</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
     <index id="142" parent="45" name="users_email_unique">
-      <ObjectId>17544</ObjectId>
-      <StateNumber>913</StateNumber>
+      <ObjectId>17702</ObjectId>
+      <StateNumber>986</StateNumber>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="143" parent="45" name="users_pkey">
-      <ObjectId>17543</ObjectId>
-      <StateNumber>913</StateNumber>
+      <ObjectId>17701</ObjectId>
+      <StateNumber>986</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
     <key id="144" parent="45" name="users_email_unique">
-      <ObjectId>17545</ObjectId>
-      <StateNumber>913</StateNumber>
+      <ObjectId>17703</ObjectId>
+      <StateNumber>986</StateNumber>
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>

@@ -60,6 +60,7 @@ return [
     ],
 
     'reservations' => [
+        'my' => 'Minhas reservas',
         'label' => 'Reservas',
         'index' => 'Reservas',
         'show' => 'Reservas :. Detalhes',

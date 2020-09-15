@@ -7,4 +7,4 @@
  * Namespace 'App\Http\Controllers\Client
  */
 
-
+Route::get('reservations', 'ReservationController@pagination')->name('reservations');

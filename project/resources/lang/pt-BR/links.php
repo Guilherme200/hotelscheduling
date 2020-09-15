@@ -35,4 +35,8 @@ return [
         'register' => 'Criar conta'
 
     ],
+
+    'reservations' => [
+        'create' => 'Criar nova reserva'
+    ]
 ];

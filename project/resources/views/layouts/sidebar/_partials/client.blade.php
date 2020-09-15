@@ -1,12 +1,12 @@
 <ul class="sidebar-menu">
   <li class="active">
     <a class="nav-link"
-       href="{{ route('home') }}"
+       href="{{ route('client.reservations.index') }}"
        data-toggle="tooltip"
        data-placement="right"
-       title="Dashboard">
-      <i class="fas fa-tachometer-alt"></i>
-      <span>Dashboard</span>
+       title="@lang('labels.common.my_reservations')">
+      <i class="far fa-calendar-check"></i>
+      <span>@lang('labels.common.my_reservations')</span>
     </a>
   </li>
 </ul>

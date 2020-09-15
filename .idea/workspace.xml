@@ -20,12 +20,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Requests/Client/ReservationRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Client/ReservationResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/client/reservations/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/client/reservations/_partials/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/client/reservations/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/client/reservations/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbab3e1b-96e7-4042-a858-6d380364db64.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbab3e1b-96e7-4042-a858-6d380364db64.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbab3e1b-96e7-4042-a858-6d380364db64/storage_v2/_src_/database/hotel.tMHtBQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbab3e1b-96e7-4042-a858-6d380364db64/storage_v2/_src_/database/hotel.tMHtBQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/seeds/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Client/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Client/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Common/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Common/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Models/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/Reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Models/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/Room.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/WhereHas.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Repositories/Criterias/Common/WhereHas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/permissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/permissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/config/profile-permissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/config/profile-permissions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/migrations/2020_09_14_213623_create_reservations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/migrations/2020_09_14_213623_create_reservations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/links.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/client/reservations/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/client.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/client.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/client/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/client/authenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/client/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/client/pagination.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +174,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/resources/views/client/reservations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -166,19 +185,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/categories" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients" />
-      <recent name="$PROJECT_DIR$/project/resources/views/admin/users/clients/_partials" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/resources/views/client/reservations" />
       <recent name="$PROJECT_DIR$/project/resources/views/admin/users" />
       <recent name="$PROJECT_DIR$/project/resources/views" />
       <recent name="$PROJECT_DIR$/project/routes" />
       <recent name="$PROJECT_DIR$/project/routes/web" />
-      <recent name="$PROJECT_DIR$/project/resources/views/common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/resources/views/client/reservations" />
+      <recent name="$PROJECT_DIR$/project/resources/views/client/reservations/_partials" />
+      <recent name="$PROJECT_DIR$/project/app/Http/Resources/Client" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms" />
+      <recent name="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -212,7 +231,7 @@
       <workItem from="1600041777508" duration="15258000" />
       <workItem from="1600084583324" duration="143000" />
       <workItem from="1600096724575" duration="4272000" />
-      <workItem from="1600125299670" duration="9043000" />
+      <workItem from="1600125299670" duration="14431000" />
     </task>
     <servers />
   </component>
@@ -243,18 +262,19 @@
     <state x="675" y="237" width="579" height="275" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741/1366.0.1920.1080@0.27.1366.741" timestamp="1598763114816" />
     <state x="675" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1600056185790" />
     <state x="2595" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599839329132" />
-    <state x="2534" y="132" width="742" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599841347171">
-      <screen x="1920" y="105" width="1366" height="768" />
+    <state x="614" y="53" width="742" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600134971216">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="614" y="53" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1366.741@0.27.1366.741" timestamp="1600134971216" />
     <state x="2534" y="132" width="742" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599841347171" />
     <state x="2336" y="252" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598457917906">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2336" y="252" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598457917906" />
-    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600059965091">
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600140103819">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1600059965091" />
+    <state x="416" y="155" width="524" height="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.27.1366.741@0.27.1366.741" timestamp="1600140103819" />
     <state x="2386" y="234" width="306" height="385" key="FileChooserDialogImpl" timestamp="1600101338617">
       <screen x="1920" y="105" width="1366" height="768" />
     </state>
@@ -266,10 +286,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="187" y="31" width="992" height="737" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1600042449678" />
-    <state x="2593" y="280" width="551" height="512" key="find.popup" timestamp="1599842345564">
-      <screen x="1920" y="105" width="1366" height="768" />
+    <state x="673" y="196" width="551" height="512" key="find.popup" timestamp="1600138771241">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="2312" y="246" width="581" height="512" key="find.popup/0.132.1366.636/1366.0.1920.1080@1366.0.1920.1080" timestamp="1598458208215" />
+    <state x="673" y="196" width="551" height="512" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1600138771241" />
     <state x="2593" y="280" width="551" height="512" key="find.popup/1920.105.1366.768/0.132.1920.948@1920.105.1366.768" timestamp="1599842345564" />
     <state x="346" y="113" width="672" height="655" key="search.everywhere.popup" timestamp="1600057466970">
       <screen x="0" y="27" width="1366" height="741" />

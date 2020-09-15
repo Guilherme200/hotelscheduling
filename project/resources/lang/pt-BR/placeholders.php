@@ -39,4 +39,8 @@ return [
         'hotel' => 'Escolha o hotel',
         'category' => 'Escolha a categoria',
     ],
+
+    'reservations' => [
+        'room' => 'Escolha o quarto'
+    ]
 ];

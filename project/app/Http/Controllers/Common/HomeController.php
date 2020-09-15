@@ -11,6 +11,6 @@ class HomeController extends Controller
     {
         return current_user()->hasRole(UserRolesEnum::ADMIN)
             ? redirect()->route('admin.dashboard')
-            : redirect()->route('client.dashboard');
+            : redirect()->route('client.reservations.index');
     }
 }
