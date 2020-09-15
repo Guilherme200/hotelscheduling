@@ -8,7 +8,6 @@ use App\Http\Requests\Client\ReservationRequest;
 use App\Http\Resources\Client\ReservationResource;
 use App\Models\Reservation;
 use App\Repositories\Criterias\Common\Where;
-use App\Repositories\Criterias\Common\WhereHas;
 use App\Repositories\HotelRepository;
 use App\Repositories\ReservationRepository;
 use App\Repositories\RoomRepository;
