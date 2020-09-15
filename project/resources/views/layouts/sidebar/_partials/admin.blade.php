@@ -1,5 +1,5 @@
 <ul class="sidebar-menu">
-  <li class="active">
+  <li class="{{ is_active('home') }}">
     <a class="nav-link"
        href="{{ route('home') }}"
        data-toggle="tooltip"
@@ -10,7 +10,7 @@
     </a>
   </li>
   
-  <li class="active">
+  <li class="{{ is_active('admin.admins.index') }}  {{is_active('admin.clients.index') }}">
     <a class="nav-link"
        href="{{ route('admin.admins.index') }}"
        data-toggle="tooltip"
@@ -21,7 +21,7 @@
     </a>
   </li>
   
-  <li class="active">
+  <li class="{{ is_active('admin.hotels.index') }}">
     <a class="nav-link"
        href="{{ route('admin.hotels.index') }}"
        data-toggle="tooltip"
@@ -32,7 +32,7 @@
     </a>
   </li>
   
-  <li class="active">
+  <li class="{{ is_active('admin.categories.index') }}">
     <a class="nav-link"
        href="{{ route('admin.categories.index') }}"
        data-toggle="tooltip"
@@ -43,7 +43,7 @@
     </a>
   </li>
   
-  <li class="active">
+  <li class="{{ is_active('admin.rooms.index') }}">
     <a class="nav-link"
        href="{{ route('admin.rooms.index') }}"
        data-toggle="tooltip"
@@ -54,7 +54,7 @@
     </a>
   </li>
   
-  <li class="active">
+  <li class="{{ is_active('admin.reservations.index') }}">
     <a class="nav-link"
        href="{{ route('admin.reservations.index') }}"
        data-toggle="tooltip"

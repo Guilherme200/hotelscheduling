@@ -192,3 +192,23 @@ function form_item_selected($field1, $field2)
 {
     return ($field1 == $field2) ? 'selected' : '';
 }
+
+function is_current_route($route_name, $strict = false)
+{
+    $route_name_prefix = implode('.', explode('.', $route_name, -1));
+    $route_compare_prefix = implode('.', explode('.', Route::currentRouteName(), -1));
+
+    $has_same_prefix = ($route_compare_prefix !== '' && $route_compare_prefix === $route_name_prefix);
+    $is_actual_route = ($route_name === Route::currentRouteName());
+
+    if ($strict) {
+        return $is_actual_route;
+    }
+
+    return ($has_same_prefix || $is_actual_route);
+}
+
+function is_active($routeName, $output = 'active', $strict = false)
+{
+    return (is_current_route($routeName, $strict)) ? $output : '';
+}
