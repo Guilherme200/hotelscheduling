@@ -47,3 +47,13 @@ http://localhost:1080
 ```
 http://localhost/horizon
 ```
+
+### Usuários para login  ###
+
+```
+                Admin
+login: admin@email.com  senha:123456
+
+                Client
+login: client@email.com  senha:123456
+```
