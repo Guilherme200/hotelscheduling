@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/seeds/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/client/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +212,7 @@
       <workItem from="1600041777508" duration="15258000" />
       <workItem from="1600084583324" duration="143000" />
       <workItem from="1600096724575" duration="4272000" />
-      <workItem from="1600125299670" duration="7220000" />
+      <workItem from="1600125299670" duration="9043000" />
     </task>
     <servers />
   </component>

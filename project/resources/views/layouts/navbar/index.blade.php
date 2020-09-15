@@ -13,14 +13,15 @@
     <span class="d-sm-inline-block">{{ config('app.name') }}</span>
   </div>
   <ul class="navbar-nav navbar-right">
-    <li class="dropdown">
+    <li class="dropdown show">
       <a href="#"
          data-toggle="dropdown"
-         class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-        <img alt="avatar" src="{{ asset('assets/img/avatar.png') }}" class="rounded-circle mr-1">
-        <div class="d-sm-none ">Admin</div>
+         class="nav-link dropdown-toggle nav-link-lg nav-link-user"
+         aria-expanded="true">
+        <img alt="image" src="{{ asset('assets/img/avatar.png') }}" class="rounded-circle mr-1">
+        <div class="d-sm-none d-lg-inline-block mr-1">{{ current_user()->name }}</div>
       </a>
-      <div class="dropdown-menu dropdown-menu-right">
+      <div class="dropdown-menu dropdown-menu-right show">
         <a href="#!" class="dropdown-item has-icon text-danger"
            onclick="event.preventDefault(); document.getElementById('logout-navbar').submit();">
           <i class="fas fa-sign-out-alt"></i>

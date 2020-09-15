@@ -98,14 +98,14 @@
         <div class="col-lg-4 col-md-8 col-sm-8 col-12">
           <div class="card card-statistic-1">
             <div class="card-icon bg-info">
-              <i class="fas fa-bed"></i>
+              <i class="far fa-calendar-check"></i>
             </div>
             <div class="card-wrap">
               <div class="card-header">
                 <h4>@lang('headings.reservations.label')</h4>
               </div>
               <div class="card-body">
-                {{ $roomsCount }}
+                {{ $reservationsCount }}
               </div>
             </div>
           </div>
