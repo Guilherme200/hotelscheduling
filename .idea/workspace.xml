@@ -20,21 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5baaf2da-ae00-49fb-8727-353e2e851784" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/ReservationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/ReservationResource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Models/Reservation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Repositories/ReservationRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/Scopes/SearchScope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/reservations/_partials/body.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/reservations/_partials/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/resources/views/admin/reservations/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/RoomController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/RoomController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Requests/Admin/RoomRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Requests/Admin/RoomRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Http/Resources/Admin/RoomResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Resources/Admin/RoomResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Models/Hotel.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/Hotel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/app/Models/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/Room.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/app/Support/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Support/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/database/migrations/2020_09_14_125046_create_rooms_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/migrations/2020_09_14_125046_create_rooms_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/headings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/labels.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/lang/pt-BR/placeholders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/body.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/body.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/head.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/_partials/head.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/rooms/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/rooms/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/rooms/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/users/admins/_partials/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/navbar/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/layouts/sidebar/_partials/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/admin/authenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/authenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/routes/admin/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/routes/admin/pagination.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +227,7 @@
       <workItem from="1600041777508" duration="15258000" />
       <workItem from="1600084583324" duration="143000" />
       <workItem from="1600096724575" duration="4272000" />
-      <workItem from="1600125299670" duration="2538000" />
+      <workItem from="1600125299670" duration="6799000" />
     </task>
     <servers />
   </component>

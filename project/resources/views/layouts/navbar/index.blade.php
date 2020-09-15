@@ -21,12 +21,6 @@
         <div class="d-sm-none ">Admin</div>
       </a>
       <div class="dropdown-menu dropdown-menu-right">
-        <div class="dropdown-title">Ações</div>
-        <a href="#" class="dropdown-item has-icon">
-          <i class="far fa-user"></i>
-          Perfil
-        </a>
-        <div class="dropdown-divider"></div>
         <a href="#!" class="dropdown-item has-icon text-danger"
            onclick="event.preventDefault(); document.getElementById('logout-navbar').submit();">
           <i class="fas fa-sign-out-alt"></i>

@@ -5,6 +5,7 @@ return [
         'home' => 'Dashboard',
         'users' => 'Usuários',
         'admins' => 'Administradores',
+        'clients' => 'Clientes'
     ],
 
     'auth' => [
@@ -56,5 +57,13 @@ return [
         'show' => 'Quartos :. Detalhes',
         'edit' => 'Quartos :. Edição',
         'create' => 'Quartos :. Novo',
+    ],
+
+    'reservations' => [
+        'label' => 'Reservas',
+        'index' => 'Reservas',
+        'show' => 'Reservas :. Detalhes',
+        'edit' => 'Reservas :. Edição',
+        'create' => 'Reservas :. Novo',
     ],
 ];

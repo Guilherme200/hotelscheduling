@@ -13,3 +13,4 @@ Route::resource('clients', 'ClientController');
 Route::resource('hotels', 'HotelController');
 Route::resource('categories', 'CategoryController');
 Route::resource('rooms', 'RoomController');
+Route::resource('reservations', 'ReservationController')->only('index');

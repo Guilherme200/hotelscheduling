@@ -26,7 +26,9 @@ return [
         'capacity' => 'Capacidade',
         'category' => 'Categoria',
         'hotel' => 'Hotel',
-        'number' => 'Número'
+        'number' => 'Número',
+        'room' => 'Quarto',
+        'reserved_at' => 'Reservado em'
     ]
 
 ];

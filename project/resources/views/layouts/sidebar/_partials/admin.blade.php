@@ -53,4 +53,15 @@
       <span>@lang('links.common.rooms')</span>
     </a>
   </li>
+  
+  <li class="active">
+    <a class="nav-link"
+       href="{{ route('admin.reservations.index') }}"
+       data-toggle="tooltip"
+       data-placement="right"
+       title="@lang('links.common.reservations')">
+      <i class="far fa-calendar-check"></i>
+      <span>@lang('links.common.reservations')</span>
+    </a>
+  </li>
 </ul>
